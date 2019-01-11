@@ -1,0 +1,9 @@
+image:
+  file: Dockerfile
+tasks:
+- init: >
+    npm install &&
+    npm run svelto:dev &&
+    npm run iconfont &&
+    npm run tutorial
+  command: npm run dev
